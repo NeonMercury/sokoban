@@ -1,0 +1,10 @@
+Moving:
+	Up: UP ARROW
+	Down: DOWN ARROW
+	Left: LEFT ARROW
+	Right: RIGHT ARROW
+
+Service:
+	Restart level: R
+	Undo moving: BACKSPACE
+	Go to the next level: N

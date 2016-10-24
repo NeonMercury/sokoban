@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="14" tilewidth="64" tileheight="64" nextobjectid="52">
+ <tileset firstgid="1" name="sprites" tilewidth="64" tileheight="64" tilecount="36" columns="6">
+  <image source="../sprites/sokoban/sprites.png" width="421" height="421"/>
+ </tileset>
+ <tileset firstgid="37" name="sprites" tilewidth="32" tileheight="32" tilecount="169" columns="13">
+  <image source="../sprites/sokoban/sprites.png" width="421" height="421"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="17" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,32,32,32,32,32,0,
+0,0,0,0,0,0,0,0,0,0,0,32,32,32,32,32,0,
+0,0,0,0,0,0,0,32,32,32,32,32,32,32,32,32,0,
+0,0,0,0,0,0,0,32,32,0,0,32,32,32,32,32,0,
+0,0,0,0,0,0,0,0,32,0,0,32,32,32,32,32,0,
+0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,32,32,32,32,32,0,0,0,0,0,0,
+0,0,0,0,0,0,32,32,32,32,32,32,0,0,0,0,0,
+0,0,32,32,32,0,32,32,32,32,32,32,0,32,32,32,0,
+0,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0,
+0,0,0,0,0,0,32,32,32,32,32,32,0,0,0,0,0,
+0,0,0,0,0,0,32,32,32,32,32,32,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Слой тайлов 2" width="17" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,
+0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,
+0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,2,
+0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,
+0,0,0,0,0,0,2,0,0,2,2,0,0,0,0,0,2,
+0,0,0,0,0,0,2,2,0,2,2,0,0,0,0,0,2,
+0,0,0,0,0,2,2,2,0,2,2,2,2,2,2,2,2,
+0,0,0,0,0,2,0,0,0,0,0,2,2,0,0,0,0,
+0,2,2,2,2,2,0,0,0,0,0,0,2,2,2,2,2,
+2,2,0,0,0,2,0,0,0,0,0,0,2,0,0,0,2,
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
+2,2,2,2,2,2,0,0,0,0,0,0,2,2,2,2,2,
+0,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,
+0,0,0,0,0,2,2,2,2,2,2,2,2,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="targets">
+  <object id="16" name="purple" type="target" gid="196" x="847" y="114" width="32" height="32"/>
+  <object id="17" name="purple" type="target" gid="196" x="911" y="114" width="32" height="32"/>
+  <object id="18" name="purple" type="target" gid="196" x="975" y="114" width="32" height="32"/>
+  <object id="19" name="purple" type="target" gid="196" x="975" y="178" width="32" height="32"/>
+  <object id="20" name="purple" type="target" gid="196" x="911" y="178" width="32" height="32"/>
+  <object id="21" name="purple" type="target" gid="196" x="847" y="178" width="32" height="32"/>
+  <object id="22" name="purple" type="target" gid="196" x="847" y="242" width="32" height="32"/>
+  <object id="23" name="purple" type="target" gid="196" x="847" y="306" width="32" height="32"/>
+  <object id="24" name="purple" type="target" gid="196" x="847" y="370" width="32" height="32"/>
+  <object id="25" name="purple" type="target" gid="196" x="911" y="370" width="32" height="32"/>
+  <object id="26" name="purple" type="target" gid="196" x="911" y="306" width="32" height="32"/>
+  <object id="27" name="purple" type="target" gid="196" x="975" y="242" width="32" height="32"/>
+  <object id="28" name="purple" type="target" gid="196" x="975" y="306" width="32" height="32"/>
+  <object id="29" name="purple" type="target" gid="196" x="975" y="370" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="boxes">
+  <object id="2" name="purple" type="box" gid="17" x="192" y="704" width="64" height="64"/>
+  <object id="3" name="purple" type="box" gid="17" x="384" y="704" width="64" height="64"/>
+  <object id="4" name="purple" type="box" gid="17" x="448" y="640" width="64" height="64"/>
+  <object id="5" name="purple" type="box" gid="17" x="448" y="768" width="64" height="64"/>
+  <object id="6" name="purple" type="box" gid="17" x="512" y="768" width="64" height="64"/>
+  <object id="7" name="purple" type="box" gid="17" x="640" y="768" width="64" height="64"/>
+  <object id="8" name="purple" type="box" gid="17" x="640" y="704" width="64" height="64"/>
+  <object id="9" name="purple" type="box" gid="17" x="640" y="576" width="64" height="64"/>
+  <object id="10" name="purple" type="box" gid="17" x="576" y="512" width="64" height="64"/>
+  <object id="11" name="purple" type="box" gid="17" x="512" y="512" width="64" height="64"/>
+  <object id="12" name="purple" type="box" gid="17" x="448" y="512" width="64" height="64"/>
+  <object id="13" name="purple" type="box" gid="17" x="512" y="576" width="64" height="64"/>
+  <object id="14" name="purple" type="box" gid="17" x="512" y="640" width="64" height="64"/>
+  <object id="15" name="purple" type="box" gid="17" x="896" y="704" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="service">
+  <object id="1" name="player" type="player" gid="18" x="64" y="704" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="collisions">
+  <object id="30" x="384" y="128" width="256" height="64"/>
+  <object id="31" x="640" y="0" width="64" height="192"/>
+  <object id="32" x="704" y="0" width="384" height="64"/>
+  <object id="33" x="1024" y="64" width="64" height="384"/>
+  <object id="34" x="576" y="256" width="128" height="192"/>
+  <object id="35" x="704" y="384" width="320" height="64"/>
+  <object id="36" x="704" y="448" width="128" height="64"/>
+  <object id="37" x="768" y="512" width="64" height="128"/>
+  <object id="38" x="832" y="512" width="256" height="64"/>
+  <object id="39" x="1024" y="576" width="64" height="192"/>
+  <object id="40" x="768" y="704" width="256" height="64"/>
+  <object id="41" x="320" y="832" width="512" height="64"/>
+  <object id="42" x="768" y="768" width="64" height="64"/>
+  <object id="43" x="0" y="704" width="384" height="64"/>
+  <object id="44" x="320" y="768" width="64" height="64"/>
+  <object id="45" x="0" y="576" width="64" height="128"/>
+  <object id="46" x="64" y="512" width="64" height="128"/>
+  <object id="47" x="128" y="512" width="256" height="64"/>
+  <object id="48" x="320" y="576" width="64" height="64"/>
+  <object id="49" x="320" y="384" width="64" height="128"/>
+  <object id="50" x="384" y="192" width="64" height="256"/>
+  <object id="51" x="448" y="320" width="64" height="128"/>
+ </objectgroup>
+</map>
